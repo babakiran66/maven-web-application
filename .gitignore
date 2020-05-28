@@ -1,1 +1,3 @@
-newignorefile.txt
+.classpath
+.project
+/.settings
