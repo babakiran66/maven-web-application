@@ -29,12 +29,7 @@
 
 	</properties>
 	
-	<repositories>
-	<repository>
-		<id>nexus</id>
-	      <url>http://52.66.167.130:8081/repository/kiranproxy/</url>
-      </repository>
-</repositories>
+	
 	<dependencies>
 		
 		<dependency>
@@ -100,17 +95,7 @@
 		
 	</dependencies>
 	
-	<distributionManagement>
 	
-	    <repository>
-	      <id>nexus</id>
-	      <name>kiransharedrepo</name>
-	      <url>http://52.66.167.130:8081/repository/kiransharedrepo/</url>
-      </repository>
-
-
-	    
-	</distributionManagement>
 	
 	<build>
 		<finalName>maven-web-application</finalName>
