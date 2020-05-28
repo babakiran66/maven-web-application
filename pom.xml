@@ -95,7 +95,13 @@
 		
 	</dependencies>
 	
-	
+	<distribuionManagement>
+		<repository>
+			<id>nexus</id>
+			<name>Kiran-snapshot</name>
+			<url>http://13.233.8.72:8081/repository/Kiran_snapshot/</url>
+			</repository>
+		</distributionManagement>
 	
 	<build>
 		<finalName>maven-web-application</finalName>
