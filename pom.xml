@@ -95,7 +95,7 @@
 		
 	</dependencies>
 	
-	<distribuionManagement>
+	<distributionManagement>
 		<repository>
 			<id>nexus</id>
 			<name>Kiran-snapshot</name>
