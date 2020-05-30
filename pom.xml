@@ -97,9 +97,9 @@
 	
 	<distributionManagement>
 		<repository>
-			<id>nexus</id>
-			<name>Kiran_snapshot</name>
-			<url>http://13.126.210.185:8081/repository/Kiran_snapshot/</url>
+			<id>nexus_repo</id>
+			<name>kiran-release</name>
+			<url>http://13.126.210.185:8081/repository/kiran-release/</url>
 			</repository>
 		</distributionManagement>
 	
