@@ -96,11 +96,11 @@
 	</dependencies>
 	
 	<distributionManagement>
-		<snapshotRepository>
+		<repository>
 			<id>nexus</id>
 			<name>Kiran_snapshot</name>
 			<url>http://13.126.210.185:8081/repository/Kiran_snapshot/</url>
-			</snapshotRepository>
+			</repository>
 		</distributionManagement>
 	
 	<build>
