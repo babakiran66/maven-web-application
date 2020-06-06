@@ -1,0 +1,11 @@
+node{
+    def mvnHome = tool name: 'maven3.6.1' , type: 'maven'
+    stage('sourcecode'){
+        git branch: 'new_branch', credentialsId: 'b7841392-a661-446b-9bab-9c2ebf2eb4dd', url: 'https://github.com/babakiran66/maven-web-application.git'
+    }
+
+stage('build'){
+   sh "${mvnHome}/bin/mvn clean package"
+}
+
+}
